@@ -1,0 +1,84 @@
+.container {
+    box-shadow: 10px 10px 5px gray;
+    margin: 100px 100px 400px;
+    height: 100px
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-self: auto;
+}
+
+
+.checkout {
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.breadcrumb {
+    width: 830px
+}
+
+.cart {
+    width: 480px;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.payment {
+    width: 600px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+a:link {
+    color: blue
+}
+
+a:visited {
+    color: purple
+}
+
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted
+}
